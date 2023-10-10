@@ -1,5 +1,5 @@
-## Blog app
+# Blog app
 Project under construction
-# Tech Stack:
+## Tech Stack:
 - nextjs
 - tailwind
