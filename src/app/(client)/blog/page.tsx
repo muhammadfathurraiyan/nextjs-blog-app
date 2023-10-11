@@ -7,7 +7,7 @@ export default function BlogPage() {
   const apiCall = async () => {
     const response = await fetch("https://pokeapi.co/api/v2/berry");
     const data = await response.json();
-    const values = data.results.map(())
+    // const values = data.results.map(())
   };
 
   useEffect(() => {
