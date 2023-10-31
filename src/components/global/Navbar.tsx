@@ -5,26 +5,26 @@ import { usePathname } from "next/navigation";
 export default function Navbar() {
   const path = usePathname();
   return (
-    <nav className="py-4 px-24 flex items-center justify-between border-b border-b-slate-400">
-      <h1>Logo</h1>
-      <div className="flex items-center gap-4 text-slate-400">
+    <nav className="z-10 py-2 px-8 fixed top-0 w-full left-0 flex items-center justify-between bg-zinc-900 border-b border-zinc-100">
+      <h1 className="text-zinc-100 font-medium">Raiyan.</h1>
+      <div className="flex items-center gap-4 text-zinc-400">
         <Link
           href="/"
-          className={`hover:text-white ${path === "/" && "text-white"}`}
+          className={`hover:text-white duration-300 ${path === "/" && "text-white"}`}
         >
           Home
         </Link>
         <Link
-          href="/blog"
-          className={`hover:text-white ${path === "/blog" && "text-white"}`}
+          href="/portfolio"
+          className={`hover:text-white duration-300 ${path === "/blog" && "text-white"}`}
         >
-          Blog
+          Portfolio
         </Link>
         <Link
           href="/about"
-          className={`hover:text-white ${path === "/about" && "text-white"}`}
+          className={`hover:text-white duration-300 ${path === "/about" && "text-white"}`}
         >
-          About
+          Blog
         </Link>
       </div>
     </nav>
