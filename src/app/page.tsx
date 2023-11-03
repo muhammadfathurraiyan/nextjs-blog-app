@@ -22,13 +22,57 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <Image src={Foto} alt="profile" width={0} height={0} />
+            {/* <Image src={Foto} alt="profile" width={0} height={0} /> */}
           </div>
         </div>
-        <div className="border-t border-zinc-100"></div>
+        <div className="border-t border-zinc-100 p-2 flex flex-col justify-center">
+          <h2 className="text-3xl font-medium uppercase">My tech stack</h2>
+          <div className="grid grid-cols-4 gap-2">
+            <div className="p-2 border border-zinc-100">
+              <Image src="" alt="" width={0} height={0} />
+              <div>
+                <h3>React</h3>
+                <p>
+                  For building interactive user interface i like to use React
+                  with Typescript.
+                </p>
+              </div>
+            </div>
+            <div className="p-2 border border-zinc-100">
+              <Image src="" alt="" width={0} height={0} />
+              <div>
+                <h3>NextJS</h3>
+                <p>
+                  For full-stack web development i use NextJS with Typescript.
+                </p>
+              </div>
+            </div>
+            <div className="p-2 border border-zinc-100">
+              <Image src="" alt="" width={0} height={0} />
+              <div>
+                <h3>Tailwind</h3>
+                <p>For styling i like to use tailwind.</p>
+              </div>
+            </div>
+            <div className="p-2 border border-zinc-100">
+              <div>
+                <h3>MongoDB</h3>
+                <p>For database i like to use MongoDB with Prisma ORM.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="grid grid-rows-4">
-        <div className="row-span-3 border-l border-zinc-100"></div>
+        <div className="row-span-3 border-l border-zinc-100 p-2 flex flex-col justify-center">
+          <h2 className="text-3xl uppercase font-medium">About me.</h2>
+          <p>
+            I am Muhammad Fathur Raiyan, 20 years old guy from Aceh, Indonesia.
+            I identify my self as a junior web developer, I realy love about
+            programming especialy web programing, I do front-end and back-end
+            web development.
+          </p>
+        </div>
         <div className="border-l border-t border-zinc-100 p-4 flex flex-col items-center justify-center">
           <div className="flex flex-col items-center">
             <p>Get in touch!</p>
