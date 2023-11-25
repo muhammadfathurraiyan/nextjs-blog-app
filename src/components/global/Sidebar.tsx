@@ -45,7 +45,7 @@ const Sidebar = () => {
       <nav className="lg:hidden  fixed  flex items-center justify-between z-10 top-0 left-0 px-4 py-2 border-b border-neutral-700 bg-neutral-900 w-full">
         <div className="flex flex-col">
           <h1 className="text-sm font-medium">M. Fathur Raiyan</h1>
-          <p className="text-xs">Web Developer</p>
+          <p className="text-sm">Web Developer</p>
         </div>
         <button
           onClick={handleToggle}
@@ -79,11 +79,11 @@ const Sidebar = () => {
           />
           <div className="flex flex-col">
             <h1 className="text-sm font-medium">M. Fathur Raiyan</h1>
-            <p className="text-xs">Web Developer</p>
+            <p className="text-sm">Web Developer</p>
           </div>
         </div>
         <div>
-          <ul className="text-xs">
+          <ul className="text-sm">
             <li>
               <Link
                 className={`flex items-center gap-2 p-2 text-neutral-400  hover:text-neutral-50 rounded-md ${
@@ -153,7 +153,7 @@ const Sidebar = () => {
           </ul>
         </div>
         <div>
-          <ul className="text-xs">
+          <ul className="text-sm">
             <li className="p-2">Get in touch!</li>
             <li>
               <Link

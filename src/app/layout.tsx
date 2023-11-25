@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.className} bg-neutral-950 relative text-neutral-100 font-light`}>
         <Sidebar />
-        <main className="absolute lg:w-3/4 right-0 max-lg:left-0 top-0">{children}</main>
+        <main className="absolute lg:w-3/4 right-0 max-lg:left-0 top-0 text-sm">{children}</main>
       </body>
     </html>
   );
